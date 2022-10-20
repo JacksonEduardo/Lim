@@ -1,0 +1,79 @@
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+/* Sezione contenitore */
+.container{
+    width: 800px;
+    margin:auto;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    padding-right: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+}
+
+div header{
+    text-align: center;
+    color:rgb(34, 219, 39) ;
+}
+
+header h1{
+    margin: 5px;
+}
+
+header img{
+  width: 250px;
+}
+
+/* Sezione navigazione */
+nav div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(34, 219, 39);
+    text-align: center;
+}
+
+/* Sezione descrizione monopattini */
+section p{
+  margin: 5px;
+
+}
+section p::before{
+  content: ' \21A6';
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#carica-gino {
+    height: 25px;
+    width: 270px;
+    background-color: rgb(243, 179, 92);
+    border-radius: 5px;
+  }
+
+#carica-mike{
+    height: 25px;
+    width: 400px;
+    background-color: rgb(44, 193, 46);
+    border-radius: 5px;
+  }
+#carica-fedel{
+    height: 25px;
+    width: 115px;
+    background-color: rgb(188, 66, 68);
+    border-radius: 5px;
+  }
+  
